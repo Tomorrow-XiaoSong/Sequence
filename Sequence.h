@@ -18,7 +18,7 @@ public:
 	}
 	int length();
 	string longestConsecutive();
-	//string longestRepeated();
+	string longestRepeated();
 };
 
 #endif
