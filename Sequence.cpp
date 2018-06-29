@@ -47,7 +47,7 @@ string Sequence::longestConsecutive()
 	return result;
 }
 
-int Compare_DNAs(const void* left,const void* right){
+int Compare_DNAs(const void* left,const void* right){	  //qsort 的比较参数函数，升序排序
 	return strcmp(*(char**)left,*(char**)right);
 }
 string Sequence::longestRepeated()
