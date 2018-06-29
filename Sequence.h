@@ -17,6 +17,7 @@ public:
 		return DNA;
 	}
 	int length();
+	int numberOf(char base);
 	string longestConsecutive();
 	string longestRepeated();
 };

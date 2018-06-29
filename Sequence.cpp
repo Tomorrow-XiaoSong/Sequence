@@ -21,6 +21,17 @@ int Sequence::length()
 	return getDNA().length();
 }
 
+int Sequence::numberOf(char base)
+{
+	string this_DNA = getDNA();
+	int length = getDNA().length();
+	int count = 0;
+	for(int i = 0;i<length;i++){
+		if(this_DNA[i] == base) count++;
+	}
+	return count;
+}
+
 string Sequence::longestConsecutive()
 {
 	int old_sameCount = 1;			//记录之前的Consecutive的长度
