@@ -1,7 +1,7 @@
 #include"Sequence.h"
 #include<iostream>
 #include<fstream>
-#include<string.h>
+#include<string.h>				//g++ --std=c++11的<string>中没有strcmp(),必须加一个<string.h>
 #include<string>
 using namespace std;
 
